@@ -1,0 +1,16 @@
+{
+  "name": "particle-to-datastore",
+  "version": "0.0.1",
+  "description": "A script to insert Particle events into a Google Cloud Platform Datastore database",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Luka Domitrovic",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "google-cloud": "^0.40.0",
+    "util": "^0.10.3"
+  }
+}
