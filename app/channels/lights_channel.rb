@@ -7,7 +7,7 @@ class LightsChannel < ApplicationCable::Channel
   def unsubscribed
   end
 
-  def test
-    LightsStatusJob.perform_later("test")
+  def test(data)
+    LightsStatusJob.perform_later(data)
   end
 end
